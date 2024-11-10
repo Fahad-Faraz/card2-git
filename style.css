@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.container1 {
+
+    display: flex;
+    word-spacing: 10px;
+    flex-wrap: wrap;
+    color: brown;
+    background-color: black;
+    flex-direction: row;
+    height: 600px;
+    /* width: 1500px; */
+    justify-content: center;
+
+}
+
+.card1 {
+    color: rgb(133, 6, 6);
+    font-style: oblique;
+    font-size: 20px;
+
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    word-spacing: 5px;
+    gap: 20px;
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+}
+
+.card2>button {
+    background-color: brown;
+    border: 1px;
+    color: azure;
+
+}
+
+.card3 {
+    display: flex;
+    color: antiquewhite;
+    /* align-items: baseline; */
+    justify-content: center;
+    font-family: "Playwrite GB S", serif;
+}
+
+
+.card4>button {
+    color: blue;
+    background-color: brown;
+    border: tomato;
+    
+}
+.card4>p{width:500px;
+    
+}
